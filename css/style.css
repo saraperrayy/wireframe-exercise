@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+/* all gutters 30px... 15px + 15px */
+header {
+    background-color: grey;
+    margin-bottom: 15 px;
+}
+img {
+    margin: 15px;
+}
+/* nav bar */
+li {
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+li > div > h1 {
+
+}
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+}
+footer {
+    background-color: grey;
+    height: 150px;
+}
